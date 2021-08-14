@@ -157,6 +157,16 @@ a {
     list-style: none;
 }
 
+/*  Сеточные стили для catalog-card.html  */
+
+.product-photos {
+    width: 460px;
+}
+
+.product-info {
+    width: 390px;
+}
+
 /*  /.Конец стилей Catalog-card.html */
 
 
@@ -182,6 +192,7 @@ a {
 .breadcrumbs-current {
     color: #aba9a7;
 }
+
 
 .filters fieldset {
     border: none;
@@ -272,9 +283,11 @@ a {
 
     background-color: #ffffff;
 }
+/*  Сеточные стили для catalog.html   */
 
 
-/* /.Конец стилей для Catalog.html*/
+
+/* /.Конец стилей для catalog.html*/
 
 .main-footer {
     color: #ffffff;
@@ -352,27 +365,212 @@ a {
 }
 
 
+/* ----- Сеточные стили -------- */
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header {
+    margin-bottom: 75px;
+}
+
+.inner-page .main-header {
+    margin-bottom: 50px;
+
+    background-color: #000000;
+}
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-page .main-navigation {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.main-header-logo {
+    order: 2;
+    width: 368px;
+    height: 153px;
+}
+
+.inner-page .main-header-logo {
+    order: 0;
+
+    width: 111px;
+    height: 24px;
+    padding: 23px 20px;
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+
+    background-color: #000000;
+}
+
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    width: 620px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.user-navigation {
+    width: 140px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.inner-page .user-navigation {
+    margin-left: auto;
+}
+
+/*  --- Сеточные стили Main --- */
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.feature-item {
+    width: 300px;
+}
 
 
+.index-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    margin-bottom: 35px;
+}
+
+.news {
+    width: 380px;
+}
+
+.gallery {
+    width: 300px;
+}
 
 
+.contacts {
+    width: 380px;
+}
 
+.appointment {
+    width: 300px;
+}
 
+.page-title {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
 
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+}
 
+.catalog-columns {
+    display: flex;
+    justify-content: space-between;
+}
 
+.filters {
+    width: 180px;
+}
 
+.catalog {
+    width: 700px;
+}
 
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
 
+    list-style: none;
+}
 
+.catalog-item {
+    width: 220px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
 
+.catalog-item:nth-child(3n) {
+    margin-right: 0;
+}
 
+.pagination-list {
+    padding: 0;
+    margin: 0;
 
+    list-style: none;
+}
 
+/* --- /main ---  */
 
+/* --- footer --- */
 
+.main-footer {
+    padding: 60px 0;
+    margin-top: 65px;
+}
 
+.inner-page .main-footer {
+    margin-top: 45px;
+}
 
+.main-footer .container {
+    display: flex;
+}
 
+.footer-contacts {
+    width: 320px;
+    margin: 0;
+    margin-right: 80px;
+}
 
+.footer-social {
+    width: 145px;
+}
 
+.footer-copyright {
+    width: 150px;
+    margin: 0;
+    margin-left: auto;
+}
