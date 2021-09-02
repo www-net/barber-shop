@@ -1358,9 +1358,18 @@ background-color: #cccccc;
 }
 
 .modal-map p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
     margin: 0;
 }
 
+.modal-map div {
+    position: relative;
+    z-index: 3;
+}
 
 .modal-show {
     display: block;
