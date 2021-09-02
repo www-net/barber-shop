@@ -1,12 +1,6 @@
-var mapLink = document.querySelector(".js-button-map");
 var mapFooterLink = document.querySelector(".js-button-map-footer");
 var mapPopup = document.querySelector(".modal-map");
 var mapClose = document.querySelector(".modal-close-map");
-
-mapLink.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    mapPopup.classList.add("modal-show");
-});
 
 mapFooterLink.addEventListener("click", function(evt) {
     evt.preventDefault();
